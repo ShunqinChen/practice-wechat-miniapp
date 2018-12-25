@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FDE001",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序特性测试",
+    "backgroundColor": "#1A1921",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#1A1921",
+    "backgroundColor":"#FDE001",
+    "selectedColor": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Hello"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "World"
+      }
+    ]
+  }
+}
