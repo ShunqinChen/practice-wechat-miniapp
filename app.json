@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/store/store"
   ],
   "window": {
     "navigationBarBackgroundColor": "#FDE001",
@@ -12,16 +13,16 @@
   },
   "tabBar": {
     "color": "#1A1921",
-    "backgroundColor":"#FDE001",
+    "backgroundColor": "#FDE001",
     "selectedColor": "black",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "Hello"
+        "text": "首页"
       },
       {
-        "pagePath": "pages/index/index",
-        "text": "World"
+        "pagePath": "pages/store/store",
+        "text": "门店"
       }
     ]
   }
